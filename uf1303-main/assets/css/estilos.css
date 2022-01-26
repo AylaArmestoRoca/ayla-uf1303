@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+/* Marca de agua */
+
+.agua:before {
+  position: fixed;
+  content: '';
+  bottom: 2vh;
+  right: 5vh;
+  width: 56.77vh;
+  height: 20vh;
+  opacity: 0.2;
+  background-image: url("../svg/w3c/css.svg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+ /* Imagen banner de portada */
+header.portada {
+    width: 100%;
+    height: 50vh;
+    background-image: url('https://cdn.pixabay.com/photo/2020/02/09/13/08/banner-4833105_960_720.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Título centrado dentro de la imagen */
+header.portada {
+    position: relative;
+}
+
+header.portada h2 {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.6);
+    color: #ffffff;
+}
+
+/* Maquetación */
+
+body main section {
+    padding: 5vw;
+}
+
+/* Estilos para textos */
+
+/* Tamaño de los textos  */
+html, body {
+    font-size: 16px;
+}
+
+h1 { font-size: 0.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.5em; }
+h6 { font-size: 1.1em; }
+
+/* Familia y colores de los textos */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "DM Serif Display", "Arial Bold", serif;
+    text-transform: capitalize;
+    /* color genérico */
+    color: #557714;
+}
+
+
+p, a, li, strong, em, span, figcaption, q, blockquote {
+    font-family: "Monserrat", Verdana, Helvetica, sans-serif;
+    font-size: 1em;
+    /* color genérico */
+    color: #666666;
+}
+
+/* Interlineado */
+p {
+    line-height: 1.5;
+}
+
+/* colores específicos */
+h2, strong {
+    color: #AA3C39;
+}
+
+a {
+    font-weight: bold;
+    color: #557714;
+}
+
+figcaption {
+    font-size: small;
+    font-style: italic;
+}
+
+/* Estilos para los párrafos "Nota" */
+
+p.nota {
+    padding: 1em;
+    background-color: aliceblue;
+    border-left: 0.25em solid darkblue;
+    border-radius: 5px;
+}
