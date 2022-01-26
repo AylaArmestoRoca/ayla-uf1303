@@ -17,6 +17,19 @@
   background-size: cover;
   background-repeat: no-repeat; }
 
+/*imagenes validadores*/
+/*reglas comunes a los tres*/
+
+figure.w3c.css {
+    background-image: url ("../svg/w3c/css.svg");
+    
+}
+
+figure.w3c {
+    width: 88px;
+    height: 31px;
+}
+
  /* Imagen banner de portada */
 header.portada {
     width: 100%;
