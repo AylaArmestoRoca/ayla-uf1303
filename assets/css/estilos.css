@@ -35,8 +35,9 @@ figure.w3c.html {
 }
 
 figure.w3c {
-    width: 88px;
-    height: 31px;
+    width: 5vw;
+    height: 1,76vw;
+    margin: 0,5em;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,4 +197,64 @@ footer.li, h2, p, {
     font-size: 0.5em;
 }
 
+/* ------- */
 
+/* color de fondo */
+
+body >footer {
+    background-color: black;
+}
+
+
+body > footer h2, 
+body > footer li a {
+    color: white;
+
+}
+
+/* quitar estilos de listas */
+body > footer li {
+    list-style: none;
+}
+
+/*no mostrar el h2 en el footerr */
+footer section.footer__pie h2 {
+    display: none;
+}
+
+/* convertir li en elementos en linea */
+
+body > footer li.validator , 
+body > footer li.legal {
+    display: inline-block;
+}
+
+/* textos en color en blanco */
+body > footer h2 ,
+body > footer li a,
+body > footer li a span {
+    color: white;
+}
+
+li.w3c figure {
+    margin: 0.5em;
+}
+
+footer p {
+    align-content: center;
+}
+
+section.contentinfo a .pattern figure {
+    width: 20vw;
+    height: 13.32vw;
+    background-image: url('../svg/logo.svg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+div[role="group"] {
+    background: lime;
+    
+    width: 40%;
+}
