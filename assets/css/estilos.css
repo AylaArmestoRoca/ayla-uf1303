@@ -181,10 +181,18 @@ p.nota {
 }
 
 footer {
-    background-color: black
-    
+    background-color: black;
+    background-size: cover;
+}
+
+footer.section {
+    color: white;
+    text-align: left;
 }
 
 footer.li {
-    color: white
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.5em;
 }
+
