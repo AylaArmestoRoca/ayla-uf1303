@@ -179,3 +179,12 @@ p.nota {
     border-left: 0.25em solid darkblue;
     border-radius: 5px;
 }
+
+footer {
+    background-color: black
+    
+}
+
+footer.li {
+    color: white
+}
